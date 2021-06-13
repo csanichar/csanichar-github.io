@@ -1,0 +1,230 @@
+.jumbotron{
+    background-image: url('http://10steps.sg/wp-content/uploads//2012/11/White-christmas-light-background.jpg');
+    background-attachment:fixed;
+
+}
+
+#about{
+    margin-top:-40px;
+    padding-top: 50px;
+}
+
+#resume, #projects{
+    padding-top: 60px;
+    margin-top: -40px;
+}
+
+#title{
+    font-size:300%;
+    margin-bottom: 0px;
+    background-color:#FFFFCC;
+    border-width:thin;
+    border-radius: 10px 10px 10px 10px;
+    text-align:center;
+    display:inline;
+}
+
+.background{
+    background-color:#FFFFCC;
+    border-radius: 10px 10px 10px 10px;
+    border-left:15px;
+    display:inline;
+
+}
+
+.marginsize{
+    margin-top:20px;
+    margin-right:25px;
+
+}
+
+.space h3{
+    margin-left:25px;
+}
+
+
+body {
+    padding-top: 80px;
+
+}
+
+#profilepic{
+    min-width:50px;
+}
+
+#myCarousel .item {
+    height:600px;
+    border-radius: 15px 15px 15px 15px;
+
+}
+
+
+
+
+#slide1{
+    padding-top:20px;
+    background-color: #777777;
+    color:white;
+    padding-left:20px;
+
+
+}
+
+#slide2{
+
+    padding-top:20px;
+    background-color: #777777;
+    color:white;
+    padding-left:20px;
+
+}
+
+#slide3{
+
+    padding-top:20px;
+    background-color: #777777;
+    color:white;
+    padding-left:20px;
+
+}
+
+
+
+.left.carousel-control{
+
+    margin-left:-100px;
+    color:black;
+    background: none;
+
+}
+
+.right.carousel-control{
+    margin-right:-100px;
+    color:black;
+    background: none;
+
+
+}
+
+.site-footer{
+    background-color:#222222;
+    color:white;
+    margin-top:30px;
+    padding-top:10px;
+}
+
+
+#displayresume{
+
+    margin:0 auto;
+    padding-top: 20px;
+}
+
+#ultrasoundPic{
+    padding-right:20px;
+    padding-left:20px;
+}
+
+#ansik img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:20px 20px 20px 20px;
+    margin-top:100px;
+
+
+}
+
+#roverPic{
+    margin:0 auto;
+    height:300px;
+    padding:10px 30px 10px 10px;
+}
+
+.borderline-first{
+    border-bottom: 3px solid;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 50px;
+    color:#b2b2b2;
+    width:75%;
+}
+
+.borderline{
+    border-bottom: 3px solid;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    margin-bottom: 50px;
+    padding-top:20px;
+    color:#b2b2b2;
+    width:75%;
+
+}
+
+.bottom-footer{
+    border-bottom: 3px solid #b2b2b2;
+    margin-top:10px;
+    color:#b2b2b2;
+}
+
+.bottom-footer p{
+    padding-top:10px;
+}
+
+.footer-list {
+    padding-top:10px;
+    text-align:right;
+}
+
+
+.footer-list li{
+    display:inline;
+}
+
+.footer-list li:not(:first-child):before{
+    content:'|';
+    padding:0 10px
+}
+
+.footer-list a:hover{
+    text-decoration:none;
+}
+
+#underline{
+    border-bottom: 3px solid;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:5px;
+    color:black;
+    width:75%;
+}
+
+#underline h1{
+    padding-top:0;
+    margin-top:0;
+}
+
+.underlineRest{
+    border-bottom: 1px solid;
+    margin-left:auto;
+    margin-right:auto;
+    color:black;
+    width:75%;
+}
+
+.format{
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.format2 p{
+    margin:0;
+    padding:0;
+}
+
+.moreSpace{
+    margin-top:5px;
+    padding-top:5px;
+}

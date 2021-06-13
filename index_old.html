@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.0.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/MyWebsite.css"/>
+
+
+    <script type="text/javascript" src="js/MyWebsite.js"></script>
+
+</head>
+<body>
+<div id="title" align="center">WELCOME!</div>
+
+
+
+    <div class="sub-menu">
+        <div id="resume">Resume</div>
+        <div id="projects">Projects</div>
+        <div id="home">Return Home</div>
+    </div>
+
+    <p class="pull-me">MENU</p>
+
+
+<div id="Container">
+
+
+    <div id="pic" style="display:inline; ">
+        <img src="img/grad photo.jpg" height="400" width="370" />
+    </div>
+
+    <div class="background" style="display:inline">
+
+        <h1><span>About Me</span></h1>
+            <p>I am a recent graduate from the Electrical Engineering program at the University of Waterloo, and very team-oriented and driven to do well in problem solving situations. Over my six internships in technology,
+            I have acquired a strong background in information systems, developing software applications and working in team environments. Throughout my four consecutive internships at a
+            high-tech company I have developed strong abilities in performing data analysis on test results, developing solutions that meet client standards, broadened leadership mindset,
+            and become an excellent collaborative team member. My personal interests include expanding my coding knowledge and learning about new developments in the technology world today.<br><br>
+                <strong>Career Goals</strong><br><br>
+             I am looking to use my technical background to join a successful technology driven company, as a Software Developer.
+                My long term goals include getting into a Technical Project Manager role to help identify root causes, employ strategies for technical risks, and helping to prioritize issues that arise.</p>
+
+    </div>
+
+
+
+
+
+</div>
+
+<div id="socialmedia" >
+
+    <a href="https://plus.google.com/u/0/">
+        <img src="img/g+.png" height="60px" width="60px" class="google" align="middle"/>
+    </a>
+
+    <a href="https://ca.linkedin.com/pub/chris-sanichar/70/9a7/a02">
+        <img src="img/linkedin.png" height="60px" width="60px" class="linkedin" />
+    </a>
+
+
+</div>
+
+
+
+
+<div id='displayresume' align="center">
+    <embed src="img/Chris Sanichar - Resume.pdf" width=800px height=2100px >
+</div>
+
+
+<div id="container3">
+
+
+
+    <div class="slides">
+
+        <div class="slide active-slide">
+            <h1 style="text-align: center">3D Visualization of Capacitive Micromachined Ultrasonic Transducer (CMUT) Scanning</h1>
+            <div id="ultrasound">
+                <img src="img/3d ultrasound image.png" height="450" width="400" />
+            </div>
+            <div class="info">
+                <h2>Product Developed:</h2>
+                <p>Working in a group with four other classmates, we implemented a method to scan an object  using a CMUT device and produce a 3D visualized volume with a high Signal-To-Noise ratio using MATLAB.</p>
+                <h3>Stage 1:</h3>
+                <p>In Stage 1 shown to the right we collected raw data using a CMUT to produce multiple 2D images of size 560x360 pixels using MATLAB. </p>
+                <h3>Stage 2:</h3>
+                <p>In Stage 2 we researched and applied image processing techniques to remove noise and sharpen the image quality. The approach we found most beneficial was a method called bilateral filtering.</p>
+                <h3>Stage 3:</h3>
+                <p>In stage 3, the 2D images that we were able to create were then mapped to the real world coordinate system. Following this we used a linear interpolation technique to to map points from the 2D images to a 3D volume.
+                    And in order to differentiate the surroundings from the object, we applied an opacity filter to achieve this.</p>
+            </div>
+
+
+        </div>
+
+        <div class="slide slide-ansik">
+            <div class="info">
+                <h1 style="text-align: center">Mobile Application for Vehicle Maintenance <strong>(Current Project)</strong></h1>
+                <h2>What is it?</h2>
+                <p>Currently I am working with a Start-up company called Ansik, to help develop a mobile application for both android and IOS that will be able to read engine codes through a vehicle's engine ECU using an on-board diagnostics device that directly plugs into a car below its dashboard and communicates through bluetooth.
+                    The languages being utilized to develop this application is html, css, javascript, and angularJS.</p>
+                <h2>Purpose?</h2>
+                <p>The purpose of this product is to be able to utilize these engine codes to observe how a vehicle's functions are performing, including monitoring the battery, breaks, or antifreeze fluid to name a
+                    few. This information will help alert owners of any malfunctions occuring within the car, who can take this information to mechanics to get repair quotes and also give them a better understanding of what kinds of problems are occuring with the vehicle.</p>
+            </div>
+
+            <div id="ansik">
+                <img src="img/ansik.png" />
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="arrows">
+        <div class="arrow-prev"><a href="#"><img src="https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-left-01-128.png" height="100" width="50"/></a></div>
+
+         <ul class="slider-dots">
+            <li class="dot active-dot">&bull;</li>
+            <li class="dot">&bull;</li>
+        </ul>
+        <div class="arrow-next"><a href="#"><img src="https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-right-01-128.png" height="100" width="50"/></a></div>
+    </div>
+</div>
+
+
+</body>
+</html>
